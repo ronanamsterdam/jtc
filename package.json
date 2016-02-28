@@ -1,8 +1,8 @@
 {
   "name": "jtc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Roman Zhyliov <romanfromrome.com@gmail.com>",
-  "description": "JTC(Json To <CODE>)compiles an AST input data in to any code output based on provided/default descriptor",
+  "description": "JTC(Json To {CODE})compiles an AST input data in to any code output based on provided/default descriptor",
   "main": "jtc.js",
   "scripts": {
     "test": "mocha tests/spec.js --compilers js:babel-register"
