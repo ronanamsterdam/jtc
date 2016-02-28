@@ -1,4 +1,4 @@
-# JTC - Json To <CODE> Compiler
+# JTC - Json To {CODE} Compiler
 =======
 
 JTC is a json to any code transformer
