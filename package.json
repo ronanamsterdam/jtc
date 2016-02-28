@@ -12,7 +12,12 @@
     "url" : "https://github.com/ronanamsterdam/jtc.git"
     },
   "keywords": [
-    "hot"
+    "hot",
+    "compiler",
+    "javascript",
+    "json",
+    "es6",
+    "ast"
   ],
   "license": "MIT",
   "bugs": {},
