@@ -1,0 +1,31 @@
+{
+  "name": "jtc",
+  "version": "0.1.0",
+  "author": "Roman Zhyliov <romanfromrome.com@gmail.com>",
+  "description": "JTC(Json To <CODE>)compiles an AST input data in to any code output based on provided/default descriptor",
+  "main": "jtc.js",
+  "scripts": {
+    "test": "mocha tests/spec.js --compilers js:babel-register"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ronanamsterdam/jtc.git"
+    },
+  "keywords": [
+    "hot"
+  ],
+  "license": "MIT",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "handlebars": "4.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "6.4.5",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "babel-register": "6.5.2",
+    "chai": "3.4.1",
+    "mocha": "2.3.4"
+  }
+}
