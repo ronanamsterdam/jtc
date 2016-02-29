@@ -3,11 +3,11 @@
 [![Code Climate](https://codeclimate.com/github/ronanamsterdam/jtc/badges/gpa.svg)](https://codeclimate.com/github/ronanamsterdam/jtc)
 
 # JTC - Json To {CODE} Compiler
-=======
+
 
 JTC is a json to any code transformer
 
-It:
+### What It Does:
 
 1. takes a tokenized code tree input in form of javaScript ```{Object}```
 2. combines that with by default embedded or provided descriptor
