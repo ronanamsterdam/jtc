@@ -20,7 +20,7 @@ npm install --save jtc
 ### Usage
 
 ```js
-  import jtc from './jtc/jtc';
+  import jtc from 'jtc';
 
   let jtcResult = jtc(compilerInput, userLoadedDescriptor);
 ```
