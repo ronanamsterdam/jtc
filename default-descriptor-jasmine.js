@@ -1,4 +1,4 @@
-//jtc descriptor form jasmine
+//jtc descriptor for jasmine
 'use strict';
 
 export default {
