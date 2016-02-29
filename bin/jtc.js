@@ -1,122 +1,3 @@
-//jtc descriptor for jasmine
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = {
-  describe: {
-    spec: {
-      start: 'describe("{{describe.text}}", () => {',
-      end: '});',
-      enumerable: true
-    },
-    wrapper: {
-      spec: {
-        start: 'export function {{describe.slug}}() {',
-        end: '}'
-      }
-    }
-  },
-  step: {
-    spec: {
-      start: 'it("{{step.text}}", (done) => {',
-      end: '});',
-      enumerable: true
-    }
-  },
-  subStep: {
-    spec: {
-      start: '.then((someGotFromAsyncObjHere) => {',
-      end: '}) \n',
-      enumerable: true
-    }
-  },
-  stepStart: {
-    spec: {
-      start: 'var someTestVarHere;',
-      end: '\n\n'
-    }
-  },
-  stepEnd: {
-    spec: {
-      start: '',
-      end: ''
-    }
-  },
-  click: {
-    spec: {
-      start: 'yourMethodToTriggerCliks("{{{click.selector}}}") \n',
-      end: ''
-    }
-  },
-  input: {
-    spec: {
-      start: 'yourMethodToSetValues("{{{input.selector}}}", "{{input.text}}") \n',
-      end: ''
-    }
-  },
-  contextmenu: {
-    spec: {
-      start: 'yourMethodToOpenContextMenu("{{{contextmenu.selector}}}") \n',
-      end: ''
-    }
-  },
-  wait: {
-    spec: {
-      start: 'yourAsyncMethod("{{{wait.selector}}}", {{wait.text}}) \n',
-      end: ''
-    }
-  },
-  navigate: {
-    spec: {
-      start: 'yourNavigateSomewhereMethod("{{navigate.text}}", "{{{navigate.selector}}}") \n',
-      end: ''
-    }
-  },
-  log: {
-    spec: {
-      start: 'yourLogMethod("{{{log.text}}}") \n',
-      end: ''
-    }
-  },
-  capture: {
-    spec: {
-      start: 'yourSceenCaptureMethod("{{capture.text}}") \n',
-      end: ''
-    }
-  },
-  custom: {
-    spec: {
-      start: '{{{custom.text}}}',
-      end: ''
-    }
-  },
-  expect: {
-    spec: {
-      start: 'expect({{{expect.expectCondition}}}).{{{expect.toBeCallback}}}({{{expect.successCondition}}}, "{{{expect.assertMessage}}}") \n',
-      end: ''
-    }
-  },
-  return: {
-    spec: {
-      start: 'return ',
-      end: ''
-    }
-  },
-  beforeAll: {
-    spec: {
-      start: 'beforeAll(function (done: () => void): void { \n /* do something here before all tests */',
-      end: '});'
-    }
-  },
-  afterAll: {
-    spec: {
-      start: 'afterAll(function (done: () => void): void { \n /* do something here after all tests */',
-      end: '});'
-    }
-  }
-};
 'use strict';
 
 /**
@@ -134,9 +15,10 @@ Object.defineProperty(exports, "__esModule", {
 
 var _context;
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 //predefined default descriptor
+
 
 var _handlebars = require('handlebars');
 
@@ -152,7 +34,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var Jtc = (function () {
+var Jtc = function () {
   function Jtc() {
     _classCallCheck(this, Jtc);
 
@@ -161,6 +43,7 @@ var Jtc = (function () {
 
   _createClass(Jtc, [{
     key: 'transform',
+
 
     /**
     * public main input/outut method
@@ -410,9 +293,10 @@ var Jtc = (function () {
   }]);
 
   return Jtc;
-})();
+}();
 
 // that singleton you expect it to be
+
 
 var jtc = null;
 
