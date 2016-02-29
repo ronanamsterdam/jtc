@@ -1,3 +1,5 @@
+[![alt tag](https://travis-ci.org/ronanamsterdam/jtc.svg?branch=master)](https://travis-ci.org/ronanamsterdam/jtc)
+
 # JTC - Json To {CODE} Compiler
 =======
 
