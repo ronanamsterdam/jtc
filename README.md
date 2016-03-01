@@ -55,19 +55,19 @@ npm install --save jtc
                       {
                         click: {
                           text: 'some text',
-                          selector: '[data-ft=some-valid-selector2]'
+                          selector: '[some-valid-selector2]'
                         }
                       },
                       {
                         click: {
                           text: 'some text',
-                          selector: '[data-ft=some-valid-selector3]'
+                          selector: '[some-valid-selector3]'
                         }
                       },
                       {
                         expect: {
                           text: 'some text',
-                          expectCondition: 'someMethod("[data-ft=some-valid-selector1]")',
+                          expectCondition: 'someMethod("[some-valid-selector1]")',
                           toBeCallback: 'toEqual',
                           passCondition: '"I expect nothing, but the truth!"'
                           assertMessage: 'AssertMessage: Well Damn!',
