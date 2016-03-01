@@ -1,6 +1,6 @@
 {
   "name": "jtc",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Roman Zhyliov <romanfromrome.com@gmail.com>",
   "description": "JTC(Json To {CODE})compiles an AST input data in to any code output based on provided/default descriptor",
   "main": "bin/jtc.js",
