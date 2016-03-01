@@ -67,7 +67,7 @@ npm install --save jtc
                       {
                         expect: {
                           text: 'some text',
-                          expectCondition: 'Helper.CountElements(page,"[data-ft=some-valid-selector1]")',
+                          expectCondition: 'someMethod("[data-ft=some-valid-selector1]")',
                           toBeCallback: 'toEqual',
                           passCondition: '"I expect nothing, but the truth!"'
                           assertMessage: 'AssertMessage: Well Damn!',
