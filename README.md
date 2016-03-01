@@ -1,6 +1,7 @@
 [![build pass](https://travis-ci.org/ronanamsterdam/jtc.svg?branch=master)](https://travis-ci.org/ronanamsterdam/jtc)
 [![Test Coverage](https://codeclimate.com/github/ronanamsterdam/jtc/badges/coverage.svg)](https://codeclimate.com/github/ronanamsterdam/jtc/coverage)
 [![Code Climate](https://codeclimate.com/github/ronanamsterdam/jtc/badges/gpa.svg)](https://codeclimate.com/github/ronanamsterdam/jtc)
+[![npm downloads](https://img.shields.io/npm/dm/jtc.svg?style=flat-square)](https://www.npmjs.com/package/jtc)
 
 # JTC - Json To {CODE} Compiler
 
