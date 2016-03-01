@@ -43,7 +43,7 @@ npm install --save jtc
         body: [ {
                 beforeAll: {
                     body: {
-                        value: '<THIS_IS_SOME_RAW_VALUE_SET_ON_CLIENT>'
+                        value: 'SOME STRING VALUE1'
                     }
                 },
               },
@@ -78,7 +78,7 @@ npm install --save jtc
               {
                 afterAll: {
                     body: {
-                        value: '<THIS_RAW_VALUE_SET_ON_CLIENT>'
+                        value: 'SOME STRING VALUE2'
                     }
                 }
               }
@@ -113,6 +113,13 @@ will add nested children if there is a body[] array there
           end: '}'
         }
     },
+    step: {
+      spec: {
+        start: 'it("{{step.text}}", (done) => {',
+        end: '});',
+        enumerable: true
+      }
+    },
     click: {
       spec: {
         start: 'yourMethodToTriggerCliks("{{{click.selector}}}")',
@@ -122,6 +129,12 @@ will add nested children if there is a body[] array there
     log: {
       spec: {
         start: 'yourLogMethod("{{{log.text}}}")',
+        end: ''
+      }
+    },
+    expect: {
+      spec: {
+        start: 'expect({{{expect.expectCondition}}}).{{{expect.toBeCallback}}}({{{expect.successCondition}}}, "{{{expect.assertMessage}}}") \n',
         end: ''
       }
     }
