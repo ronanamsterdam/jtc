@@ -173,7 +173,7 @@ will add nested children if there is a body[] array there
 
 ### Documentation
 
-* TODO
+* https://github.com/ronanamsterdam/jtc/tree/master/docs
 
 ### License
 
