@@ -169,7 +169,7 @@ will add nested children if there is a body[] array there
 
 ### Usage Examples
 
-* Coming soon
+* https://github.com/ronanamsterdam/nitrorecorder
 
 ### Documentation
 
