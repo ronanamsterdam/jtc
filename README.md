@@ -3,7 +3,7 @@
 [![Code Climate](https://codeclimate.com/github/ronanamsterdam/jtc/badges/gpa.svg)](https://codeclimate.com/github/ronanamsterdam/jtc)
 [![npm downloads](https://img.shields.io/npm/dm/jtc.svg?style=flat-square)](https://www.npmjs.com/package/jtc)
 
-# JTC - Json To {CODE} Compiler
+# JTC - Json To {CODE} Transpiler
 
 
 JTC is a json to any code transformer
